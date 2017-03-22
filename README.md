@@ -1,8 +1,4 @@
-# Ros-Tutorial
-Ros tutorial for 6.141.
-#Downloading and Installing 
 
-If you are already running Ubuntu natively, you may want to install ros there instead of the vm. The following steps should help you do that. Note at this point 6.141 was running ros-kenetic.
 
 1. Installing and configuring your invironment 
 
