@@ -17,6 +17,8 @@
 		  `source ~/.bashrc` </br>
 3. Ros workspaces([catkin workspace](http://wiki.ros.org/catkin/workspaces)), packages, and files 
 	* ROS workspaces
+	ROS uses [catkin](http://docs.ros.org/api/catkin/html/) to build packages, but to tell catkin what packages to build you need to create a workspace, essentially a directory that contains all the packages to be build. a catkin workspace is a special directory that is recognizable by ROS via the ROS tree. Which means you need to run special commands to make it.
+	
 4. The ROS communication system( Nodes, Topics, and messages).
 5. ROS commands 
 6. Creating workspaces, packages, and Nodes.
