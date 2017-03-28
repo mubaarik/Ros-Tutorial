@@ -16,7 +16,7 @@
 		  `echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc` </br>
 		  `source ~/.bashrc` </br>
 3. Ros workspaces, packages, and files 
-* ROS workspaces
+	* ROS workspaces
 4. The ROS communication system( Nodes, Topics, and messages).
 5. ROS commands 
 6. Creating workspaces, packages, and Nodes.
