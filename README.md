@@ -15,7 +15,7 @@
 	* Environment setup </br>
 		  `echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc` </br>
 		  `source ~/.bashrc` </br>
-3. Ros workspaces((catkin workspace)[http://wiki.ros.org/catkin/workspaces]), packages, and files 
+3. Ros workspaces([catkin workspace](http://wiki.ros.org/catkin/workspaces)), packages, and files 
 	* ROS workspaces
 4. The ROS communication system( Nodes, Topics, and messages).
 5. ROS commands 
