@@ -19,7 +19,6 @@
 	* ROS workspaces(catkin workspace)
 	ROS uses [catkin](http://docs.ros.org/api/catkin/html/) to build packages, but to tell catkin what packages to build you need to create a workspace, essentially a directory that contains all the packages to be build. a catkin workspace is a special directory that is recognizable by ROS via the ROS tree. Which means you need to run special commands to make it. 
 		* Creating cakin workspace </br>
-		`sudo`</br>
 		`mkdir -p ~/name_of_your_workspace/src`</br>
 		`cd ~/name_of_your_workpace/` </br>
 		`catkin_make` </br>
