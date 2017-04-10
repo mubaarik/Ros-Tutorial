@@ -31,9 +31,17 @@
 		
 	
 4. The ROS communication system( Nodes, Topics, and messages).
-	* ROS Node 
-	ROS Node is essentially a process that performs a computation(e.g. a Python script that computes the distance between two points). If you're familiar with Python or other functional/object oriented programming languages, you know that different parts of your program communicate via function or method calls. Essentially one function or a method does some computation and produces some output, and then other function that needs that output calls. The problem with is the fact that if one of those functions or methods in a sequence of calls contains a problem and crushes, it usually leads to everything crushing. This is a big problem for something like a self-driving car or drone. It means that if not usiful script crushes at some point in a mission, you just lost you robot or endangered lives. ROS is the way to avoid that disaster. ROS Nodes which are essentially classes or functions of some programming language communicating via topics. You can think of topic as frequency on the radio band and nodes as radioes broadcasting on those frequencies. Nodes publishes messages on chosen topics and other nodes can (subscribe) or listen to that topic and use message data to do their calculations and then publishes messages of their own on some topic. If one node crushes it doesn't effect others, except the onces that was listening to what it was publishing may not be able to do their computation.  
+	* ROS Node is essentially a process that performs a computation(e.g. a Python script that computes the distance between two points). If you're familiar with Python or other functional/object oriented programming languages, you know that different parts of your program communicate via function or method calls. Essentially one function or a method does some computation and produces some output, and then other function that needs that output calls. The problem with is the fact that if one of those functions or methods in a sequence of calls contains a problem and crushes, it usually leads to everything crushing. This is a big problem for something like a self-driving car or drone. It means that if not usiful script crushes at some point in a mission, you just lost you robot or endangered lives. ROS is the way to avoid that disaster. ROS Nodes which are essentially classes or functions of some programming language communicating via topics. You can think of topic as frequency on the radio band and nodes as radioes broadcasting on those frequencies. Nodes publishes messages on chosen topics and other nodes can (subscribe) or listen to that topic and use message data to do their calculations and then publishes messages of their own on some topic. If one node crushes it doesn't effect others, except the onces that was listening to what it was publishing may not be able to do their computation.  
 5. ROS commands 
+	* Listing nodes, topics and messages.</br>
+		* rosnode commands </br>
+		`$ rosnode info \node_name` -> Prints out information about the node, like subscriptions and publications
+		`$ rosnodes list`-> prints the names of all the topics that are ar 
+		`$ rosnode list \my_namespace`-> prints out all the nodes in this namespace
+		
+		*list running topics.</br>
+		`rostopic list`
+		*
 6. Creating workspaces, packages, and Nodes.
 7. Racecar sensor anatomy 
 8. Running Gazebo 
