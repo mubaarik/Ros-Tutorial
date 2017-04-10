@@ -6,8 +6,7 @@
 	* Configure your Ubuntu repositories to allow "restricted," "universe," and "multiverse." </br>
 	* Set up the keys </br>
 		```diff
-		+sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
-		``` </br>
+		+sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116``` </br>
 	* Install </br>
 		  <span style="color:blue">*`sudo apt-get update`* </span></br>
 		  `sudo apt-get install ros-kinetic-desktop-full` </br>
