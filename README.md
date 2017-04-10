@@ -8,13 +8,13 @@
 		```js
 		sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116``` </br>
 	* Install </br>
-		  <span style="color:blue">*`sudo apt-get update`* </span></br>
-		  `sudo apt-get install ros-kinetic-desktop-full` </br>
+		  ```js sudo apt-get update```</br>
+		  ```js sudo apt-get install ros-kinetic-desktop-full``` </br>
 	* Initialize rosdep </br>
-		  `sudo rosdep init` </br>
-		  `rosdep update`  </br>
+		  ```js sudo rosdep init` </br>
+		  ```js rosdep update`  </br>
 	* Environment setup </br>
-		  `echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc` </br>
+		  ```js echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc` </br>
 		  `source ~/.bashrc` </br>
 3. Ros workspaces([catkin workspace](http://wiki.ros.org/catkin/workspaces)), packages, and files 
 	* ROS workspaces(catkin workspace)
