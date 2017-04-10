@@ -11,18 +11,18 @@
 		  ``` sudo apt-get update```</br>
 		  ```sudo apt-get install ros-kinetic-desktop-full``` </br>
 	* Initialize rosdep </br>
-		  ```js sudo rosdep init` </br>
-		  ```js rosdep update`  </br>
+		  ```sudo rosdep init` </br>
+		  ```rosdep update`  </br>
 	* Environment setup </br>
-		  ```js echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc` </br>
-		  `source ~/.bashrc` </br>
+		  ```echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc` </br>
+		  ```source ~/.bashrc``` </br>
 3. Ros workspaces([catkin workspace](http://wiki.ros.org/catkin/workspaces)), packages, and files 
 	* ROS workspaces(catkin workspace)
 	ROS uses [catkin](http://docs.ros.org/api/catkin/html/) to build packages, but to tell catkin what packages to build you need to create a workspace, essentially a directory that contains all the packages to be build. a catkin workspace is a special directory that is recognizable by ROS via the ROS tree. Which means you need to run special commands to make it. 
 		* Creating cakin workspace </br>
-		`mkdir -p ~/name_of_your_workspace/src`</br>
-		`cd ~/name_of_your_workpace/` </br>
-		`catkin_make` </br>
+		```mkdir -p ~/name_of_your_workspace/src```</br>
+		```cd ~/name_of_your_workpace/``` </br>
+		```catkin_make``` </br>
 	* ROS packages(catkin package)
 	If workspace(catkin workspace in this case) was just the directory to store your packages, package essentially stores files for a particular project(e.g. lab), but again it is a ros package for a reason. Along with your files it contains two special files [package.xml](http://wiki.ros.org/catkin/package.xml), and [CMakelists.txt](http://wiki.ros.org/catkin/CMakeLists.txt). 
 		* Creating catkin package</br>
