@@ -8,10 +8,8 @@
 		```js
 		sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116``` </br>
 	* Install </br>
-		  ```js 
-		  sudo apt-get update```</br>
-		  ```js 
-		  sudo apt-get install ros-kinetic-desktop-full``` </br>
+		  ``` sudo apt-get update```</br>
+		  ```sudo apt-get install ros-kinetic-desktop-full``` </br>
 	* Initialize rosdep </br>
 		  ```js sudo rosdep init` </br>
 		  ```js rosdep update`  </br>
