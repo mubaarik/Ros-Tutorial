@@ -44,8 +44,8 @@
 			`rostopic echo /topic_name` #Displays messsages published on the topic</br>
 			`rostopic hz /topic_name` #Display the publishing rate of a topic.</br>
 		* rosmsg commands</br>
-			`rosmsg list` #Display a list of all messages
-			`rosmsg show <message_name>` #Display the fields in a ROS message type.
+			`rosmsg list` #Display a list of all messages</br>
+			`rosmsg show <message_name>` #Display the fields in a ROS message type.</br>
 			
 6. Creating workspaces, packages, and Nodes.
 7. Racecar sensor anatomy 
