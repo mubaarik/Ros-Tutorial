@@ -36,12 +36,11 @@
 5. ROS commands 
 	* Listing nodes, topics and messages.</br>
 		* rosnode commands </br>
-		`$ rosnode info \node_name`  #Prints out information about the node, like subscriptions and publications</br>
-		`$ rosnodes list`	#prints the names of all the running nodes.</br>
-		`$ rosnode list \my_namespace`	#prints out all the nodes in this namespace</br>
-		
+			`$ rosnode info \node_name`  #Prints out information about the node, like subscriptions and publications</br>
+			`$ rosnodes list`	#prints the names of all the running nodes.</br>
+			`$ rosnode list \my_namespace`	#prints out all the nodes in this namespace</br>
 		*list running topics.</br>
-		`rostopic list`
+			`rostopic list`
 		*
 6. Creating workspaces, packages, and Nodes.
 7. Racecar sensor anatomy 
