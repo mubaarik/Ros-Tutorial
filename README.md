@@ -48,6 +48,15 @@
 			`rosmsg show <message_name>` #Display the fields in a ROS message type.</br>
 			
 6. Creating workspaces, packages, and Nodes.
+	* With that short introduction to ros, let's start with creating a workspace for this tutorial. We will call our workpace rss_tutorial_ws</br?>
+	`mkdir -p ~/rss_tutorial_ws/src`</br>
+	`cd ~/rss_tutorial_ws`</br>
+	`catkin_make`</br>
+	* If everything went according to plan, you should two more directories(build, devel) created in the workspace. Now let's create a package, we called it tutorial_lab0. This package has the depends rospy, std_msgs, geometry_msgs,  sensor_msgs </br>
+	`cd ~/rss_turorial_ws/src`</br>
+	`catkin_create_pkg tutorial_lab0 rospy std_msgs geometry_msgs  sensor_msgs`</br>
+	
+	* If you navigate into rss_turorial_ws/src, you should see that the a directory with appropriate name is created. As we mensioned earlier, every package has two required files(`CMakeLists.txt  package.xml`), make sure that they are present.</br> 
 7. Racecar sensor anatomy 
 8. Running Gazebo 
 9. Running the racecar 
